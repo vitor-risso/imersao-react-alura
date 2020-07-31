@@ -49,7 +49,7 @@ function CadastroCategoria() {
     <PageDefault>
 
       <h1>
-        Cadstro de Categoria:
+        Cadastro de Categoria:
         {' '}
         {values.nome}
       </h1>
