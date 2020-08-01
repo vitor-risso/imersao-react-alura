@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Jorge & Mateus",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Marilia Mendonça",
       "cor": "#00C86F",
       "link_extra": {
         "text": "Cursos de Back End na Alura",
@@ -74,11 +74,11 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Henrique & Juliano",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Canal no YouTube",
+        "url": "https://www.youtube.com/user/hejproducao"
       },
       "videos": [
         {

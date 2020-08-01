@@ -5,6 +5,8 @@ import PageDefault from '../../../PageDefault/index';
 import FormField from '../../../FormFIeld';
 import Button from '../../../components/Button';
 
+import useForm from '../../../hooks/useForm';
+
 function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
@@ -13,23 +15,8 @@ function CadastroCategoria() {
     descricao: '',
     cor: '#000',
   };
-  const [values, setValues] = useState(valoresIniciais);
 
-  function setvalue(chave, valor) {
-    setValues({
-      // chave : nome, descricao, cor
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(infoDosEventos) {
-    setvalue(
-
-      infoDosEventos.target.getAttribute('name'),
-      infoDosEventos.target.value,
-    );
-  }
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
   useEffect(() => {
     const URL = window.location.href.includes('localhost')
@@ -62,7 +49,7 @@ function CadastroCategoria() {
 
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
         {/* state */}
@@ -103,9 +90,9 @@ function CadastroCategoria() {
       )}
 
       <ul>
-        {categorias.map((categorias) => (
-          <li key={`${categorias.nome}`}>
-            {categorias.nome}
+        {categorias.map((categoria) => (
+          <li key={`${categoria}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
