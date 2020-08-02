@@ -1,13 +1,21 @@
-import  {URL_BACKEND} from '../config';
+import config from '../config';
 
-function getAllWithVideo(){
-    console.log(config.URL_BACKEND)
+const URL_CATEGORIES = `${config.URL_BACKEND}/categorias`;
 
-    return URL_BACKEND
-};
+function getAllWithVideos() {
+  return fetch(`${URL_CATEGORIES}?_embed=videos`)
+    .then(async (respostaDoServidor) => {
+      if (respostaDoServidor.ok) {
+        const resposta = await respostaDoServidor.json();
 
+        return resposta;
+      }
 
-
+      throw new Error('Não foi possível obter os dados:');
+    });
+}
 export default {
-    getAllWithVideo(),
+
+  getAllWithVideos,
+
 };

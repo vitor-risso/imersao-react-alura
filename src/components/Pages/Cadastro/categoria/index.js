@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../PageDefault/index';
-
-import FormField from '../../../FormFIeld';
+import FormField from '../../../FormFIeld/index';
 import Button from '../../../components/Button';
-
 import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
