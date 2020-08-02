@@ -1,26 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../PageDefault/index';
-
-import FormField from '../../../FormFIeld';
+import FormField from '../../../FormFIeld/index';
 import Button from '../../../components/Button';
-
 import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
-    cor: '#000',
+    cor: '#000000',
   };
 
   const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
   useEffect(() => {
     const URL = window.location.href.includes('localhost')
-      ? 'https://localhost8080/categorias'
+      ? 'http://localhost:8080/categorias'
       : 'https://pipocaflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (respostaDoServer) => {
@@ -32,6 +30,7 @@ function CadastroCategoria() {
         throw new Error('Não foi possível pegar os dados');
       });
   }, []);
+
   return (
     <PageDefault>
 
@@ -43,22 +42,18 @@ function CadastroCategoria() {
 
       <form onSubmit={function handleSubmit(infoDosEventos) {
         infoDosEventos.preventDefault();
-        setCategorias([
-          ...categorias,
-          values,
+        setCategorias([...categorias, values]);
 
-        ]);
-
-        clearForm();
+        clearForm(valoresIniciais);
       }}
       >
         {/* state */}
 
         <FormField
           label="Nome da Categoria: "
-          name="nome"
+          name="titulo"
           type="text"
-          value={values.nome}
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -78,7 +73,7 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>
+        <Button type="submit">
           Cadastrar
         </Button>
       </form>
@@ -91,7 +86,7 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria}`}>
+          <li key={`${categoria.id}`}>
             {categoria.titulo}
           </li>
         ))}

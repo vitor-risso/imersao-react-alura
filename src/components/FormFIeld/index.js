@@ -106,7 +106,7 @@ function FormField({
   );
 }
 
-FormField.defaultPorps = {
+FormField.defaultProps = {
   type: 'text',
   value: '',
   // onChange: () => {},

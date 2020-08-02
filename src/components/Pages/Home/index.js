@@ -11,7 +11,6 @@ function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
 
   useEffect(() => {
-    // http://localhost:8080/categorias?_embed=videos
     categoriesRespositories.getAllWithVideos()
       .then((categoriasComVideos) => {
         console.log(categoriasComVideos[0].videos[0]);

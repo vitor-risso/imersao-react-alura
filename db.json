@@ -1,300 +1,306 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Jorge & Mateus",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Canal no YouTube",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
-      },
-      {
-        "id": 2,
-        "titulo": "Marília Mendonça",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Canal no YouTube",
-          "url": "https://www.youtube.com/channel/UCL64gn1KZ1C-u87BGQv3b6w"
-        }
-      },
-      {
-        "id": 3,
-        "titulo": "Henrique & Juliano",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Canal no YouTube",
-          "url": "https://www.youtube.com/user/hejproducao"
-        }
-      },
-      {
-        "id": 4,
-        "titulo": "Zé Neto & Cristiano",
-        "cor": "orange",
-        "link_extra": {
-            "text":"Canal no YouTube",
-            "url":"https://www.youtube.com/user/zncoficial"
-        }
-      },
-      {
-        "id": 5,
-        "titulo": "Matheus & Kauan",
-        "cor": "red",
-        "link_extra": {
-          "text": "Canal no YouTube",
-          "url": "https://www.youtube.com/channel/UC4WvVh0AwJ6K9w1JLepce7A"
-        }
-      },
-      {
-          "id":6,
-          "titulo":"Maira & Maraisa",
-          "cor": "yellow",
-          "link_extra":{
-              "text": "Canal no YouTube",
-              "url":"https://www.youtube.com/user/maiaramaraisaoficial" 
-          }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Jorge & Mateus",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Canal no YouTube",
+        "url": "https://www.youtube.com/user/jemproducoes"
       }
-    ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "CHEIROSA",
-        "url": "https://www.youtube.com/watch?v=YZT1U2rlvyM"
-      },
-      {
-        "id": 2,
-        "categoriaId": 1,
-        "titulo": "PAREDES",
-        "url": "https://www.youtube.com/watch?v=_Ydy_H8t3n8"
-      },
-      {
-        "id": 3,
-        "categoriaId": 1,
-        "titulo": "SE EU PEDIR, CE VOLTA",
-        "url": "https://www.youtube.com/watch?v=fxbUXnbFAD8"
-      },
-      {
-        "id": 4,
-        "categoriaId": 1,
-        "titulo": "PRA SEMPRE COM VOCÊ",
-        "url": "https://www.youtube.com/watch?v=VWRkQARH-9o"
-      },
-      {
-        "id": 5,
-        "categoriaId": 1,
-        "titulo": "VOU VOANDO",
-        "url": "https://www.youtube.com/watch?v=zfX5BoIOvnY"
-      },
-      {
-        "id": 6,
-        "categoriaId": 1,
-        "titulo": "NOCAUTE",
-        "url": "https://www.youtube.com/watch?v=EhlhRIJygPM"
-      },
-      {
-        "id": 7,
-        "categoriaId": 1,
-        "titulo": "LOGO EU",
-        "url": "https://www.youtube.com/watch?v=4gmR2XfjztA"
-      },
-      {
-        "id": 8,
-        "categoriaId": 2,
-        "titulo": "TENTATIVAS",
-        "url": "https://www.youtube.com/watch?v=E4sYQwI45A4"
-      },
-      {
-        "id": 9,
-        "categoriaId": 2,
-        "titulo": "CIUMEIRA",
-        "url": "https://www.youtube.com/watch?v=KbRtA_brCQ0"
-      },
-      {
-        "id": 10,
-        "categoriaId": 2,
-        "titulo": "GRAVETO",
-        "url": "https://www.youtube.com/watch?v=CKtHg1jBREY"
-      },
-      {
-        "id": 11,
-        "categoriaId": 2,
-        "titulo": "SERENATA",
-        "url": "https://www.youtube.com/watch?v=noKzDrxHioc"
-      },
-      {
-        "id": 12,
-        "categoriaId": 2,
-        "titulo": "BEBI LIGUEI",
-        "url": "https://www.youtube.com/watch?v=2nH7xAMqD2g"
-      },
-      {
-        "id": 13,
-        "categoriaId": 3,
-        "titulo": "LIBERDADE PROVISORIA",
-        "url": "https://www.youtube.com/watch?v=ff3r10rCKFs"
-      },
-      {
-        "id": 14,
-        "categoriaId": 3,
-        "titulo": "FLOR E O BEIJA-FLOR",
-        "url": "https://www.youtube.com/watch?v=LmRrLl8aLfE"
-      },
-      {
-        "id": 15,
-        "categoriaId": 3,
-        "titulo": "CONTAR PRA QUÊ",
-        "url": "https://www.youtube.com/watch?v=IYn2BU4rbsQ"
-      },
-      {
-        "id": 16,
-        "categoriaId": 3,
-        "titulo": "CUIDA BEM DELA",
-        "url": "https://www.youtube.com/watch?v=2Q6eFRuYa2w"
-      },
-      {
-          "id": 17,
-          "categoriaId":3,
-          "titulo":"DE TRÁS PRA FRENTE",
-          "url":"https://www.youtube.com/watch?v=r1SgAoRsJ98"
-      },
-      {
-          "id":18,
-          "categoriaId":3,
-          "titulo":"CALAFRIO",
-          "url":"https://www.youtube.com/watch?v=NqHNkwAho9w"
-      },
-      {
-        "id":19,
-        "categoriaId":3,
-        "titulo":"BRIGA FEIA",
-        "url":"https://www.youtube.com/watch?v=zpib0LxEOxU"
     },
-      {
-        "id": 20,
-        "categoriaId": 4,
-        "titulo": "MEU MEDO",
-        "url": "https://www.youtube.com/watch?v=Zw-ydEZIEK4"
-      },
-      {
-        "id": 21,
-        "categoriaId": 4,
-        "titulo": "TE AMO",
-        "url": "https://www.youtube.com/watch?v=lmFm_ByIgE0"
-      },
-      {
-        "id": 22,
-        "categoriaId": 4,
-        "titulo": "AMOR A PRIMEIRA VISTA",
-        "url": "https://www.youtube.com/watch?v=x2NQ6uQR6M8"
-      },
-      {
-        "id": 23,
-        "categoriaId": 4,
-        "titulo": "LONG NECK",
-        "url": "https://www.youtube.com/watch?v=QoRb9JQEnQI"
-      },
-      {
-        "id": 24,
-        "categoriaId": 4,
-        "titulo": "SEU POLICIA",
-        "url": "https://www.youtube.com/watch?v=u2C2UU0UpZc"
-      },
-      {
-        "id": 25,
-        "categoriaId": 5,
-        "titulo": "TE ASSUMI PRO BRASIL",
-        "url": "https://www.youtube.com/watch?v=qL9VDKaSO_s"
-      },
-      {
-        "id": 26,
-        "categoriaId": 5,
-        "titulo": "LITRÃO",
-        "url": "https://www.youtube.com/watch?v=DfdN9tII0kw"
-      },
-      {
-        "id": 27,
-        "categoriaId": 5,
-        "titulo": "O NOSSO SANTO BATEU",
-        "url": "https://www.youtube.com/watch?v=kbCtpDwVCLQ"
-      },
-      {
-        "id":28,
-        "categoriaId":5,
-        "titulo": "TINHA QUE SER EU",
-        "url": "https://www.youtube.com/watch?v=iEur2x-lMfw"
-      },
-      {
-        "id":29,
-        "categoriaId":5,
-        "titulo":"TE AMO A BEÇA",
-        "url":"https://youtu.be/xEBFajTpA2Q"
-      },
-      {
-        "id":30,
-        "categoriaId":5,
-        "titulo": "DECIDE AI",
-        "url":"https://youtu.be/pRgCcgbjVDA"
-      },
-      {
-        "id":31,
-        "categoriaId":5,
-        "titulo":"AO VIVO E A CORES",
-        "url":"https://www.youtube.com/watch?v=iyI9RMkEzbQ&feature=youtu.be"
-      },
-      {
-        "id":32,
-        "categoriaId":5,
-        "titulo":"EXCLUSIVIDADE",
-        "url":"https://www.youtube.com/watch?v=SEx4DYa05fc"
-      },
-      {
-        "id":33,
-        "categoriaId":5,
-        "titulo":"SOFRO TUDO DE NOVO",
-        "url":"https://youtu.be/KpZredAEv_E"
-      },
-      {
-        "id":34,
-        "categoriaId":5,
-        "titulo": "SER HUMANO OU ANJO",
-        "url":"https://youtu.be/wilY_GMUWJo"
-      },
-      {
-        "id":35 ,
-        "categoriaId":6,
-        "titulo":"AÍ EU BEBO",
-        "url":"https://www.youtube.com/watch?v=KY_6FYsX6wo"
-      },
-      {
-        "id": 36,
-        "categoriaId":6,
-        "titulo":"SORTE QUE CE BEIJA BEM",
-        "url":"https://www.youtube.com/watch?v=soC-46cfs_w"
-      },
-      {
-        "id": 37,
-        "categoriaId":6,
-        "titulo":"MEDO BOBO",
-        "url":"https://www.youtube.com/watch?v=Jzl_nrTkfIM"
-      },
-      {
-        "id": 38,
-        "categoriaId":6,
-        "titulo":"10%",
-        "url":"https://www.youtube.com/watch?v=JybMBMTHWP8"
-      },
-      {
-        "id": 39,
-        "categoriaId":6,
-        "titulo":"NO DIA DO SEU CASAMENTO",
-        "url":"https://www.youtube.com/watch?v=Q9q0tDPi6D4"
-      },
-      {
-        "id":40,
-        "categoriaId":6,
-        "titulo":"VOCÊ NEM TCHUM",
-        "url":"https://www.youtube.com/watch?v=S0gbnu4kAnw"
+    {
+      "id": 2,
+      "titulo": "Marília Mendonça",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Canal no YouTube",
+        "url": "https://www.youtube.com/channel/UCL64gn1KZ1C-u87BGQv3b6w"
       }
-    ]
-  }
+    },
+    {
+      "id": 3,
+      "titulo": "Henrique & Juliano",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Canal no YouTube",
+        "url": "https://www.youtube.com/user/hejproducao"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Zé Neto & Cristiano",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Canal no YouTube",
+        "url": "https://www.youtube.com/user/zncoficial"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Matheus & Kauan",
+      "cor": "red",
+      "link_extra": {
+        "text": "Canal no YouTube",
+        "url": "https://www.youtube.com/channel/UC4WvVh0AwJ6K9w1JLepce7A"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Maira & Maraisa",
+      "cor": "yellow",
+      "link_extra": {
+        "text": "Canal no YouTube",
+        "url": "https://www.youtube.com/user/maiaramaraisaoficial"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "CHEIROSA",
+      "url": "https://www.youtube.com/watch?v=YZT1U2rlvyM"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "PAREDES",
+      "url": "https://www.youtube.com/watch?v=_Ydy_H8t3n8"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "SE EU PEDIR, CE VOLTA",
+      "url": "https://www.youtube.com/watch?v=fxbUXnbFAD8"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "PRA SEMPRE COM VOCÊ",
+      "url": "https://www.youtube.com/watch?v=VWRkQARH-9o"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "VOU VOANDO",
+      "url": "https://www.youtube.com/watch?v=zfX5BoIOvnY"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "NOCAUTE",
+      "url": "https://www.youtube.com/watch?v=EhlhRIJygPM"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "LOGO EU",
+      "url": "https://www.youtube.com/watch?v=4gmR2XfjztA"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "TENTATIVAS",
+      "url": "https://www.youtube.com/watch?v=E4sYQwI45A4"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "CIUMEIRA",
+      "url": "https://www.youtube.com/watch?v=KbRtA_brCQ0"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "GRAVETO",
+      "url": "https://www.youtube.com/watch?v=CKtHg1jBREY"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "SERENATA",
+      "url": "https://www.youtube.com/watch?v=noKzDrxHioc"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "BEBI LIGUEI",
+      "url": "https://www.youtube.com/watch?v=2nH7xAMqD2g"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "LIBERDADE PROVISORIA",
+      "url": "https://www.youtube.com/watch?v=ff3r10rCKFs"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "FLOR E O BEIJA-FLOR",
+      "url": "https://www.youtube.com/watch?v=LmRrLl8aLfE"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "CONTAR PRA QUÊ",
+      "url": "https://www.youtube.com/watch?v=IYn2BU4rbsQ"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "CUIDA BEM DELA",
+      "url": "https://www.youtube.com/watch?v=2Q6eFRuYa2w"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "DE TRÁS PRA FRENTE",
+      "url": "https://www.youtube.com/watch?v=r1SgAoRsJ98"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "CALAFRIO",
+      "url": "https://www.youtube.com/watch?v=NqHNkwAho9w"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "BRIGA FEIA",
+      "url": "https://www.youtube.com/watch?v=zpib0LxEOxU"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "MEU MEDO",
+      "url": "https://www.youtube.com/watch?v=Zw-ydEZIEK4"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "TE AMO",
+      "url": "https://www.youtube.com/watch?v=lmFm_ByIgE0"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "AMOR A PRIMEIRA VISTA",
+      "url": "https://www.youtube.com/watch?v=x2NQ6uQR6M8"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "LONG NECK",
+      "url": "https://www.youtube.com/watch?v=QoRb9JQEnQI"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "SEU POLICIA",
+      "url": "https://www.youtube.com/watch?v=u2C2UU0UpZc"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "TE ASSUMI PRO BRASIL",
+      "url": "https://www.youtube.com/watch?v=qL9VDKaSO_s"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "LITRÃO",
+      "url": "https://www.youtube.com/watch?v=DfdN9tII0kw"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "O NOSSO SANTO BATEU",
+      "url": "https://www.youtube.com/watch?v=kbCtpDwVCLQ"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "TINHA QUE SER EU",
+      "url": "https://www.youtube.com/watch?v=iEur2x-lMfw"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "TE AMO A BEÇA",
+      "url": "https://youtu.be/xEBFajTpA2Q"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "DECIDE AI",
+      "url": "https://youtu.be/pRgCcgbjVDA"
+    },
+    {
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "AO VIVO E A CORES",
+      "url": "https://www.youtube.com/watch?v=iyI9RMkEzbQ&feature=youtu.be"
+    },
+    {
+      "id": 32,
+      "categoriaId": 5,
+      "titulo": "EXCLUSIVIDADE",
+      "url": "https://www.youtube.com/watch?v=SEx4DYa05fc"
+    },
+    {
+      "id": 33,
+      "categoriaId": 5,
+      "titulo": "SOFRO TUDO DE NOVO",
+      "url": "https://youtu.be/KpZredAEv_E"
+    },
+    {
+      "id": 34,
+      "categoriaId": 5,
+      "titulo": "SER HUMANO OU ANJO",
+      "url": "https://youtu.be/wilY_GMUWJo"
+    },
+    {
+      "id": 35,
+      "categoriaId": 6,
+      "titulo": "AÍ EU BEBO",
+      "url": "https://www.youtube.com/watch?v=KY_6FYsX6wo"
+    },
+    {
+      "id": 36,
+      "categoriaId": 6,
+      "titulo": "SORTE QUE CE BEIJA BEM",
+      "url": "https://www.youtube.com/watch?v=soC-46cfs_w"
+    },
+    {
+      "id": 37,
+      "categoriaId": 6,
+      "titulo": "MEDO BOBO",
+      "url": "https://www.youtube.com/watch?v=Jzl_nrTkfIM"
+    },
+    {
+      "id": 38,
+      "categoriaId": 6,
+      "titulo": "10%",
+      "url": "https://www.youtube.com/watch?v=JybMBMTHWP8"
+    },
+    {
+      "id": 39,
+      "categoriaId": 6,
+      "titulo": "NO DIA DO SEU CASAMENTO",
+      "url": "https://www.youtube.com/watch?v=Q9q0tDPi6D4"
+    },
+    {
+      "id": 40,
+      "categoriaId": 6,
+      "titulo": "VOCÊ NEM TCHUM",
+      "url": "https://www.youtube.com/watch?v=S0gbnu4kAnw"
+    },
+    {
+      "titulo": "TIJOLÃO",
+      "url": "https://www.youtube.com/watch?v=8eOrHFape5I",
+      "categoriaId": 1,
+      "id": 41
+    }
+  ]
+}
