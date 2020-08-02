@@ -77,7 +77,7 @@ function FormField({
   const isTextArea = type === 'textarea';
   const Tag = isTextArea ? 'textarea' : 'input';
 
-  const hasValue = value.length;
+  const hasValue = Boolean(value.length);
 
   return (
 
