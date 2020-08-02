@@ -1,5 +1,6 @@
 import config from '../config';
 
+
 const URL_CATEGORIES = `${config.URL_BACKEND}/categorias`;
 
 function getAllWithVideos() {
@@ -7,6 +8,8 @@ function getAllWithVideos() {
     .then(async (respostaDoServidor) => {
       if (respostaDoServidor.ok) {
         const resposta = await respostaDoServidor.json();
+
+
 
         return resposta;
       }

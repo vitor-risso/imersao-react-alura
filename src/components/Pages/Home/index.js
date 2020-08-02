@@ -9,7 +9,7 @@ function Home() {
 
   useEffect(() => {
     categoriesRepository.getAllWithVideos()
-      .then((categoriasComVideos) => {
+      .then((categoriasComVideos) => {r
         setDadosIniciais(categoriasComVideos);
       })
       .catch((err) => {
@@ -48,6 +48,7 @@ function Home() {
       })}
 
       {/* <BannerMain
+
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
        videoDescription="Site de musica sertaneja desenvolvido junto com a Alura durante a imersao React!"
@@ -77,6 +78,8 @@ function Home() {
         ignoreFirstVideo
         category={dadosIniciais.categorias[5]}
   /> */}
+
+
 
     </PageDefault>
   );
