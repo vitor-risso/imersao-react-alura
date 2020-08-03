@@ -12,4 +12,4 @@ Com o node ja instalado digite {...} para instalar o npm e siga os passos a segu
   1. `cd my-app`
   1. `npm start`
   
-Com esses coandos seu projeto ja terá sido iniciado e também ja terá um arquivo .git fentro dele. ou seja. você terá um repositório local das alterações feitas durante a execução do seu projeto
+Com esses comandos seu projeto ja terá sido iniciado e também ja terá um arquivo .git fentro dele. ou seja. você terá um repositório local das alterações feitas durante a execução do seu projeto
