@@ -301,6 +301,18 @@
       "url": "https://www.youtube.com/watch?v=8eOrHFape5I",
       "categoriaId": 1,
       "id": 41
+    },
+    {
+      "titulo": "EU AMO A ANA JULIA",
+      "url": "https://www.youtube.com/watch?v=YZT1U2rlvyM",
+      "categoriaId": 1,
+      "id": 42
+    },
+    {
+      "titulo": "QUASE UM CASAL",
+      "url": "https://www.youtube.com/watch?v=edDIoPdiAAg",
+      "categoriaId": 6,
+      "id": 43
     }
   ]
 }

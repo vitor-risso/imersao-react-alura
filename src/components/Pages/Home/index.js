@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
-// import Menu from '../../Menu';
-// import dadosIniciais from '../../../data/dados_iniciais.json';
 import BannerMain from '../../BannerMain';
 import Carousel from '../../Carousel';
-// import Footer from '../../Footer';
 import PageDefault from '../../PageDefault';
 import categoriesRespositories from '../../../repositories/categories';
 

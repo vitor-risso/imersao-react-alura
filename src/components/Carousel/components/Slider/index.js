@@ -1,4 +1,3 @@
-
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import SlickSlider from 'react-slick';
@@ -38,7 +37,6 @@ export const SliderItem = styled.li`
     object-fit: cover;
   }
 `;
-
 
 const Slider = ({ children }) => (
   <Container>
