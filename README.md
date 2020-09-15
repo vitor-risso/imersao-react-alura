@@ -29,5 +29,36 @@ Com esses comandos seu projeto ja terá sido iniciado e também ja terá um arqu
 ### Web 
 
 
+## :fire: Como usar
 
+- ### **Requerimentos**
+  
+  - É **necessário** ter o **[Node.js](https://nodejs.org/en/)** no seu computador.
+  - Também é preciso ter o pacote  **[NPM](https://www.npmjs.com/)** ou o pacote **[Yarn](https://yarnpkg.com/)** instaldo.
+1. Faça um clone do projeto :
 
+```sh
+  $ git clone https://github.com/vitor-risso/imersao-react-alura.git
+```
+
+2. Execute a aplicação:
+
+```sh
+  # Install the dependencies
+  $ npm/yarn install
+
+  # Start the aplication
+  $ cd imersao-react-alura
+  $ npm/yarn run dev
+
+```
+<a id="how-to-contribute"></a>
+
+## 🤔 Como contribuir
+
+- Faça um fork deste repositório;
+- Crie uma nova branch com o comando: `git checkout -b my-feature`;
+-  Em seguida faça um commit com suas mudanças: `git commit -m 'feat: My new feature'
+- E por último de um push na sua branch: `git push origin my-feature`.
+
+ Depos disto você pode fazer um merge com o pull request e deletar sua branch
