@@ -28,6 +28,11 @@ Com esses comandos seu projeto ja terá sido iniciado e também ja terá um arqu
 
 ### Web 
 
+- O site hospedado está **[AQUI](https://reactflix-git-master.vitor-risso.vercel.app/)**;
+
+<img alt ="gome"  width = "auto" justify-content = "center" src = ".github/fotoAppConcluido.png" >
+
+
 
 ## :fire: Como usar
 
